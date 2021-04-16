@@ -16,19 +16,20 @@
 
 หมวดหมู่
 -----------------------------------
+- เว็บไซต์สำหรับจัดไฟล์หลังบ้าน
 - ฝั่งแอปพิเคชั่น https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%9D%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99
-- หน้า Login 
-https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-login
-- หน้า Register
-https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-register
-- หน้า Home
+- หน้า Login https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-login
+- หน้า Register https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-register
+- หน้า Home https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-home
 - สำหรับส่วนเพิ่มเติม
 - หน้า Game
 - หน้า Profile
 
 
 -----------------------------------
+
 เว็บไซต์สำหรับจัดไฟล์หลังบ้าน
+-----------------------------------
 - วิธีเข้า 
 u: admin@gmail.com 
 p: admin เว็บไซต์: 

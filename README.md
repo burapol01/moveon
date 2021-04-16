@@ -38,6 +38,16 @@ https://moveonproject.000webhostapp.com
 ![5](https://user-images.githubusercontent.com/59292729/115007234-f7f13400-9ed3-11eb-817d-ef1b8b8c40ac.png)
 ![6](https://user-images.githubusercontent.com/59292729/115008551-70a4c000-9ed5-11eb-9c7e-3a5ac4714fdb.png)
 
+สำหรับส่วนเพิ่มเติม
+------------------------------------
+![23](https://user-images.githubusercontent.com/59292729/115010288-6be10b80-9ed7-11eb-8f5a-74065458ce14.png)
+![24](https://user-images.githubusercontent.com/59292729/115010295-6d123880-9ed7-11eb-936f-ce79c9187a75.png)
+![25](https://user-images.githubusercontent.com/59292729/115010303-6f749280-9ed7-11eb-8bb3-dde18c8e3088.png)
+![26](https://user-images.githubusercontent.com/59292729/115010310-713e5600-9ed7-11eb-963f-01b703aff2f3.png)
+![27](https://user-images.githubusercontent.com/59292729/115010315-73081980-9ed7-11eb-9d38-333794f607c3.png)
+![28](https://user-images.githubusercontent.com/59292729/115010319-74d1dd00-9ed7-11eb-8a82-91349efeefd0.png)
+
+
 หน้า Game
 ------------------------------------
 ![7](https://user-images.githubusercontent.com/59292729/115008661-9631c980-9ed5-11eb-92b2-35f6974b02f8.png)
@@ -57,7 +67,8 @@ https://moveonproject.000webhostapp.com
 ![17](https://user-images.githubusercontent.com/59292729/115009676-bc0b9e00-9ed6-11eb-804d-5959e518ed07.png)
 ![18](https://user-images.githubusercontent.com/59292729/115009689-bdd56180-9ed6-11eb-9c61-550a35767b1f.png)
 ![19](https://user-images.githubusercontent.com/59292729/115009696-bf9f2500-9ed6-11eb-8c11-2d46ec997864.png)
-
+![20](https://user-images.githubusercontent.com/59292729/115010146-49e78900-9ed7-11eb-9d8d-920493b74dde.png
+![22](https://user-images.githubusercontent.com/59292729/115010187-510e9700-9ed7-11eb-8664-6b2479e9a9cf.png)
 
 
 

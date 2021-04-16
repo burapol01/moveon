@@ -16,14 +16,14 @@
 
 หมวดหมู่
 -----------------------------------
-- เว็บไซต์สำหรับจัดไฟล์หลังบ้าน https://github.com/burapol01/moveon/blob/main/README.md#%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99
-- ฝั่งแอปพิเคชั่น https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%9D%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%84%E0%B8%8A%E0%B8%B1%E0%B9%88%E0%B8%99
-- หน้า Login https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-login
-- หน้า Register https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-register
-- หน้า Home https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-home
-- สำหรับส่วนเพิ่มเติม https://github.com/burapol01/moveon#%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B9%88%E0%B8%A7%E0%B8%99%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%A1
-- หน้า Game https://github.com/burapol01/moveon#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-game
-- หน้า Profile https://github.com/burapol01/moveon#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-profile
+- เว็บไซต์สำหรับจัดไฟล์หลังบ้าน
+- ฝั่งแอปพิเคชั่น
+- หน้า Login 
+- หน้า Register 
+- หน้า Home 
+- สำหรับส่วนเพิ่มเติม
+- หน้า Game 
+- หน้า Profile 
 
 
 -----------------------------------

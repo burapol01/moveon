@@ -20,6 +20,7 @@
 - หน้า Login 
 https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-login
 - หน้า Register
+https://github.com/burapol01/moveon/blob/main/README.md#%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-register
 - หน้า Home
 - สำหรับส่วนเพิ่มเติม
 - หน้า Game

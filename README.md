@@ -36,6 +36,24 @@ https://moveonproject.000webhostapp.com
 หน้า Home
 ------------------------------------
 ![5](https://user-images.githubusercontent.com/59292729/115007234-f7f13400-9ed3-11eb-817d-ef1b8b8c40ac.png)
+![6](https://user-images.githubusercontent.com/59292729/115008551-70a4c000-9ed5-11eb-9c7e-3a5ac4714fdb.png)
+
+หน้า Game
+------------------------------------
+![7](https://user-images.githubusercontent.com/59292729/115008661-9631c980-9ed5-11eb-92b2-35f6974b02f8.png)
+
+หน้า Start
+![9](https://user-images.githubusercontent.com/59292729/115008930-ead54480-9ed5-11eb-906d-5b34d27dc753.png)
+
+
+หน้า Profile
+------------------------------------
+![8](https://user-images.githubusercontent.com/59292729/115008705-a649a900-9ed5-11eb-9f19-fc60e32abe82.png)
+
+
+
+
+
 
 
 

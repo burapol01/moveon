@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_light_blue">#566f9a</color>
+    <color name="colorPrimary">#151c25</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="indigo">#3964c3</color>
+
+
+    <item name="item_pressed_color" type="color">#ccc</item>
+    <item name="item_default_color" type="color">#fff</item>
+
+
+    <item name="item_pressed_color_login" type="color">#921BEC23</item>
+    <item name="item_default_color_login" type="color">#29F530</item>
+
+</resources>

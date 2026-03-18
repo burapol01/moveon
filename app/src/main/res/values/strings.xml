@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">teesss</string>
+    <string name="linktosite"><a href="http://192.168.137.1/exercise/"> Register </a> </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_games">Games</string>
+    <string name="menu_profile">Profile</string>
+
+
+    <string name="title_nine">นาย</string>
+    <string name="title_nang">นาง</string>
+    <string name="title_nangsaw">นางสาว</string>
+
+    <string name="gender_male">ชาย</string>
+    <string name="gender_female">หญิง</string>
+    <string name="gender_unknown">อื่นๆ</string>
+
+    <string name="status_student">นักศึกษา</string>
+    <string name="status_Workingage">ทำงาน</string>
+    <string name="status_Theelderly">ผู้สูงอายุ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.MoveOn.ui.fragment_home"
+        android:label="fragment_home" />
+    <fragment
+        android:id="@+id/fragment_games"
+        android:name="com.example.MoveOn.ui.fragment_games"
+        android:label="fragment_games" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.MoveOn.ui.fragment_profile"
+        android:label="fragment_profile" />
+</navigation>

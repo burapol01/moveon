@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#142435"
+    android:orientation="vertical">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Rv_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+               />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView2"
+                    app:layout_constraintVertical_bias="0.032"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/bmi"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state"
+                                android:onClick="chang_pass">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_bmi" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="BMI"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/history_play"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_history_black_24dp" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ประวัติการเล่น"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/data_personal"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_perm" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ข้อมูลส่วนตัว"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView3"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/setting"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_settings" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ตั้งค่า"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/chang_pass"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state"
+                                android:onClick="chang_pass">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_vpn_key_black_24dp" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="เปลี่ยนรหัสเข้าใช้"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/log_out"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_exit" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ออกจากระบบ"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

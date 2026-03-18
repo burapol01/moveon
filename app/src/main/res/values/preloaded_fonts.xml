@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+
+
+        <item>@font/cookie</item>
+        <item>@font/faster_one</item>
+        <item>@font/monofett</item>
+        <item>@font/mouse_memoirs</item>
+        <item>@font/nosifer</item>
+        <item>@font/peralta</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/sonsie_one</item>
+        <item>@font/trade_winds</item>
+
+    </array>
+</resources>

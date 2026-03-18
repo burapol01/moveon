@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MoveOn">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/moveon"
+        android:label="Move On"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity.DeleteDatapersonal" />
+        <activity android:name=".Activity.EditDatapersonal" />
+        <activity android:name=".Activity.DataVideoEx" />
+        <activity android:name=".Activity.VideoMain" />
+        <activity android:name=".Activity.DataReadYoga" />
+        <activity android:name=".Activity.DataReadExercise" />
+        <activity android:name=".Activity.DataYoga" />
+        <activity android:name=".Activity.ExerciseMain" />
+        <activity android:name=".Activity.DataReadFoods" />
+        <activity android:name=".Activity.FoodsMain" />
+        <activity android:name=".Activity.NewsMain" />
+        <activity android:name=".Activity.TsetNews" />
+        <activity android:name=".Activity.DataReadNews" />
+        <activity android:name=".Activity.HistoryPlay" />
+        <activity android:name=".Activity.ShowData" />
+        <activity android:name=".Activity.DatapersonalActivity" />
+        <activity android:name=".Activity.SelectYoga" />
+        <activity android:name=".Activity.SelectT25" />
+        <activity android:name=".Activity.YogadailyTraining" />
+        <activity android:name=".Activity.ChangePassword" />
+        <activity android:name=".content_main" />
+        <activity android:name=".testProfile" />
+        <activity android:name=".Activity.Calender" />
+        <activity android:name=".Activity.Daily_Training" />
+        <activity android:name=".Activity.SettingPage" />
+        <activity android:name=".Activity.ViewGames" />
+        <activity android:name=".Activity.Main2Activity" />
+        <activity android:name=".Activity.ListExercises" />
+        <activity android:name=".Activity.BMI" />
+        <activity android:name=".Activity.home" />
+        <activity android:name=".Activity.gamesplay" />
+        <activity android:name=".Activity.Register" />
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Activity.AlarmNotificationReceiver" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

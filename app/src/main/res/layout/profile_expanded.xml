@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profile_expanded"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    android:layout_width="413dp"
+                    android:layout_height="411dp"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/cover" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_user1"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/play"
+                    app:layout_constraintBottom_toBottomOf="@+id/cover"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cover"
+                    app:layout_constraintVertical_bias="0.533"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/profile_user1"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="1dp"
+                            android:layout_marginTop="0.75dp"
+                            android:layout_marginBottom="0.75dp"
+                            android:background="@drawable/item_state">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/ic_person_black_24dp" />
+
+                            <TextView
+                                android:id="@+id/user_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:text="User Name"
+                                android:textSize="20sp" />
+                        </GridLayout>
+
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_margin="1dp"
+                            android:layout_marginTop="0.75dp"
+                            android:layout_marginBottom="0.75dp"
+                            android:background="@drawable/item_state">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/ic_email" />
+
+                            <TextView
+                                android:id="@+id/email_user"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_margin="10dp"
+                                android:text="Email"
+                                android:textSize="20sp" />
+                        </GridLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView2"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/setting"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_settings" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ตั้งค่าผู้ใช้"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/chang_pass"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state"
+                                android:onClick="chang_pass">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_vpn_key_black_24dp" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="เปลี่ยนรหัสผ่าน"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/call_center"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_email" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ติดต่อประชาสัมพันธ์"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <GridLayout
+                                android:id="@+id/log_out"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="1dp"
+                                android:layout_marginTop="0.75dp"
+                                android:layout_marginBottom="0.75dp"
+                                android:background="@drawable/item_state">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/ic_exit" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="38dp"
+                                    android:layout_columnWeight="1"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="8sp"
+                                    android:gravity="center_vertical"
+                                    android:largeHeap="true"
+                                    android:text="ออกจากระบบ"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:src="@drawable/arrow_right" />
+
+                            </GridLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

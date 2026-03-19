@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 ob_start();
 if (session_status() === PHP_SESSION_NONE) {
@@ -12,6 +11,7 @@ if (!isset($_SESSION["userid"]) || !isset($_SESSION["username"]) || $_SESSION["u
     exit;
 }
 ?>
+<!DOCTYPE html>
 <html>
 
 <head>

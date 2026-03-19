@@ -2,13 +2,22 @@ FROM php:8.2-apache
 
 RUN a2enmod rewrite
 
-ENV APACHE_DOCUMENT_ROOT /var/www/html/backend
-
 WORKDIR /var/www/html
 COPY . /var/www/html/
 
-RUN sed -ri 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf /etc/apache2/apache2.conf
+RUN printf '%s\n' \
+'<VirtualHost *:80>' \
+'    DocumentRoot /var/www/html/backend' \
+'    <Directory /var/www/html/backend>' \
+'        Options Indexes FollowSymLinks' \
+'        AllowOverride All' \
+'        Require all granted' \
+'        DirectoryIndex index.php index.html' \
+'    </Directory>' \
+'</VirtualHost>' \
+> /etc/apache2/sites-available/000-default.conf
+
 RUN chown -R www-data:www-data /var/www/html
 
-EXPOSE 10000
+EXPOSE 80
 CMD ["apache2-foreground"]

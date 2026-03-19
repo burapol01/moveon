@@ -9,13 +9,13 @@ if (!defined('PROJECT_ROOT')) {
 }
 
 if (!defined('APP_BASE_URL')) {
-    define('APP_BASE_URL', '/' . basename(PROJECT_ROOT));
+    define('APP_BASE_URL', '');
 }
 
 function app_url(string $path = ''): string
 {
     $normalized = ltrim(str_replace('\\', '/', $path), '/');
-    return $normalized === '' ? APP_BASE_URL : APP_BASE_URL . '/' . $normalized;
+    return $normalized === '' ? '/' : '/' . $normalized;
 }
 
 function app_origin(): string
